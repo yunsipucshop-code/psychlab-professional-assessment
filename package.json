@@ -1,0 +1,65 @@
+{
+  "name": "psychlab-professional-assessment",
+  "version": "2.0.1",
+  "description": "专业亲密关系心理边界与占有欲评估系统 - 基于6维心理学模型的专业心理测评工具",
+  "main": "App.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "心理学",
+    "心理测评",
+    "依恋理论",
+    "亲密关系",
+    "心理健康",
+    "React",
+    "心理评估",
+    "占有欲测试",
+    "心理边界",
+    "依恋类型",
+    "情感咨询"
+  ],
+  "author": "PSYCHLAB Professional",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/psychlab-professional-assessment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/psychlab-professional-assessment/issues"
+  },
+  "homepage": "https://yourusername.github.io/psychlab-professional-assessment",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^4.4.5",
+    "@vitejs/plugin-react": "^4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
